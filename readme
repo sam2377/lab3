@@ -1,0 +1,26 @@
+A:
+	compile: make
+	execute: ./hw3
+B:
+	output for size = 1000:
+		sort(): 230 seconds
+		v1/v2 are different.
+		insertion_sort(): 10989 seconds
+		v1/v2 are the same.
+	
+	output for size = 10000:
+		sort(): 3033 seconds
+		v1/v2 are different.
+		insertion_sort(): 1.03552e+06 seconds
+		v1/v2 are the same.
+	
+	ouput for size = 100000:
+		sort(): 36866 seconds
+		v1/v2 are different.
+		...
+		...
+		...    
+
+	In conclusion, the time complexity for O(nlog(n)) is faster than O(n^2).
+	sort() is faster than insertion sort.
+	The gap will increase by the number of data.
